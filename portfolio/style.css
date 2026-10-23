@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eeeeee;
+}
+
+/* Navbar */
+nav {
+    background-color: #173b63;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home */
+.home {
+    background-color: lightblue;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Overlapping sections */
+.education {
+    background-color: white;
+    margin: -25px 40px 20px;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skills {
+    background-color: #dceeff;
+    margin: 20px 60px;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projects {
+    background-color: white;
+    margin: -15px 40px 20px;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.achievements {
+    background-color: #dceeff;
+    margin: -10px 60px 20px;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+h2 {
+    color: #173b63;
+}
+
+.home a {
+    display: inline-block;
+    background-color: #173b63;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #173b63;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav h2 {
+        width: 100%;
+    }
+
+    .education, .skills, .projects, .achievements {
+        margin: 15px;
+    }
+
+    .education {
+        margin-top: -20px;
+        position: relative;
+    }
+}
