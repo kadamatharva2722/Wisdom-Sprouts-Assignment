@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+nav {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    background-color: #f5dddd;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Destinations */
+.heading {
+    text-align: center;
+}
+
+.places {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    width: 33%;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .places {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+}
